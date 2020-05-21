@@ -1,0 +1,40 @@
+{
+  "name": "helios-station-service",
+  "version": "1.0.0",
+  "description": "API to store station info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node dist/serverScript.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Helios"
+  ],
+  "author": "Bram Van Mensel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.14.0",
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^1.7.0",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.7.7",
+    "webpack": "^4.42.1"
+  }
+}
