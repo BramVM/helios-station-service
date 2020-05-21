@@ -35,8 +35,10 @@ const allowedOrigins = [
   "http://localhost:5000",
   "http://projecthelios.azurewebsites.net",
   "http://bram-lab.com",
+  "http://station-service.bram-lab.com",
   "https://projecthelios.azurewebsites.net",
-  "https://bram-lab.com"
+  "https://bram-lab.com",
+  "https://station-service.bram-lab.com"
 ]
 
 const corsOptions = {
